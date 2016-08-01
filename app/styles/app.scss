@@ -1,3 +1,9 @@
-p {
-  color: rgb(255, 0, 0);
+
+$space-large: 2.5rem;
+$title-color: darkblue;
+
+.page-title {
+  color: $title-color;
+  margin-top: $space-large;
+  margin-bottom: $space-large;
 }

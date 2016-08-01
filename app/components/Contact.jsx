@@ -6,8 +6,8 @@ var Contact = (props) => {
     <div>
       <h1 className='text-center page-title'>Contact Me</h1>
       <p>Let's talk about what I can do for you:</p>
-      {/*<div class=class="container section" id="contact">
-        <div class="content">
+      {/*<div className="container section" id="contact">
+        <div className="content">
           <h2>Contact Me</h2>
           <div>
            <!--email -->
