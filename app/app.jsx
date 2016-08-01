@@ -2,6 +2,10 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 var {Route, Router, IndexRoute, hashHistory} = require('react-router');
 var Main = require('Main');
+var Splash = require('Splash');
+var About = require('About');
+var Examples = require('Examples');
+var Contact = require('Contact');
 
 // load foundation
 require('style!css!foundation-sites/dist/foundation.min.css');
@@ -12,7 +16,12 @@ require('style!css!sass!applicationStyles');
 
 ReactDOM.render(
   <Router history={hashHistory}>
-    <Route path="/" component={Main}></Route>
+    <Route path="/" component={Main}>
+      <Route path="about" component={About}></Route>
+      <Route path="examples" component={Examples}></Route>
+      <Route path="contact" component={Contact}></Route>
+      <IndexRoute component={Splash}/>
+    </Route>
   </Router>,
   document.getElementById("app")
 );
