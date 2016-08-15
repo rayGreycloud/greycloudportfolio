@@ -3,7 +3,7 @@ var {Link, IndexLink} = require('react-router');
 
 
 var Nav = React.createClass({
-  
+
   render: function() {
     return (
       <div className='top-bar'>
@@ -17,7 +17,7 @@ var Nav = React.createClass({
               <Link to='/about' activeClassName='active' activeStyle={{fontWeight: 'bold'}}>About</Link>
             </li>
             <li>
-              <Link to='/examples' activeClassName='active' activeStyle={{fontWeight: 'bold'}}>Examples</Link>
+              <Link to='/projects' activeClassName='active' activeStyle={{fontWeight: 'bold'}}>Projects</Link>
             </li>
             <li>
               <Link to='/contact' activeClassName='active' activeStyle={{fontWeight: 'bold'}}>Contact</Link>

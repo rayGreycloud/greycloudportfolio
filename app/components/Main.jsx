@@ -4,12 +4,10 @@ var Nav = require('Nav');
 
 var Main = (props) => {
   return (
-    <div>
+    <div className='wrapper'>
       <Nav/>
-      <div className='row'>
-        <div className='medium-10 large-8 columns centered'>
-          {props.children}
-        </div>
+      <div className='container'>
+        {props.children}
       </div>
     </div>
   );

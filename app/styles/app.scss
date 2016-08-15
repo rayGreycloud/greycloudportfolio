@@ -7,3 +7,19 @@ $title-color: darkblue;
   margin-top: $space-large;
   margin-bottom: $space-large;
 }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 600px;
+  margin: 0 auto;
+}

@@ -1,15 +1,12 @@
 var React = require('react');
 var {Link} = require('react-router');
 
-var Examples = (props) => {
+var Projects = (props) => {
   return (
     <div>
-      <h1 className='text-center page-title'>Examples</h1>
+      <h1 className='text-center page-title'>Projects</h1>
       <div className="content">
-        <div>
-          <h1>Project Portfolio</h1>
-        </div>
-        <div className="container">
+        <div className="project-list">
           <div className="row">
             <div className="col-lg-4 col-sm-6">
               <div className="thumbnail">
@@ -67,4 +64,4 @@ var Examples = (props) => {
 
   )
 };
-module.exports = Examples;
+module.exports = Projects;

@@ -4,7 +4,7 @@ var {Route, Router, IndexRoute, hashHistory} = require('react-router');
 var Main = require('Main');
 var Splash = require('Splash');
 var About = require('About');
-var Examples = require('Examples');
+var Projects = require('Projects');
 var Contact = require('Contact');
 
 // load foundation
@@ -18,7 +18,7 @@ ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={Main}>
       <Route path="about" component={About}></Route>
-      <Route path="examples" component={Examples}></Route>
+      <Route path="projects" component={Projects}></Route>
       <Route path="contact" component={Contact}></Route>
       <IndexRoute component={Splash}/>
     </Route>
