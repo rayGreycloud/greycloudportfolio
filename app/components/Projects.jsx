@@ -4,7 +4,7 @@ import {Link} from 'react-router';
 const Projects = (props) => {
   return (
     <div>
-      <h1 className='text-center page-title'>Projects</h1>
+      <h2 className='text-center page-title'>Projects</h2>
       <div className="content">
         <div className="project-list">
           <div className="row">

@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
   return (
     <div>
-      <h1 className='text-center page-title'>About Me</h1>
+      <h2 className='text-center page-title'>About Me</h2>
         <div className="section" id="about">
           <div className="content">
             <h2>Coding is My Passion</h2>
