@@ -12,15 +12,19 @@ const Contact = () => {
           <ul className="social_links">
             <li className="email">
               <a title="Email Me" href="mailto:rayGreycloud@gmail.com" target="_blank" className="btn btn-primary btn-lg">
-                <i className="fa fa-envelope-o"></i>
-                <span> Email Me</span>
+                <button className="button hollow primary">
+                  <i className="fa fa-envelope-o"></i>
+                  <span> Email Me</span>
+                </button>
               </a>
             </li>
 
             <li>
               <a title="Tweet Me" href="https://twitter.com/rayGreycloud" target="_blank" className="btn btn-primary btn-lg">
+                <button className="button hollow primary">
                 <i className="fa fa-twitter-square"></i>
-                <span>Tweet Me</span>
+                <span> Tweet Me</span>
+                </button>
               </a>
             </li>
             </ul>

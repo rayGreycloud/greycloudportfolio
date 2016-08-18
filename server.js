@@ -1,5 +1,5 @@
-var express = require('express');
-var app = express();
+const express = require('express');
+const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(function(req, res, next) {
@@ -12,6 +12,6 @@ app.use(function(req, res, next) {
 
 app.use(express.static('public'));
 
-app.listen(PORT, function() {
+app.listen(PORT, () => {
   console.log('Express server has started on port ' + PORT + '...');
 });
