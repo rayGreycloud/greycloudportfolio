@@ -23,5 +23,5 @@ ReactDOM.render(
       <IndexRoute component={Splash}/>
     </Route>
   </Router>,
-  document.getElementById("app")
+  document.querySelector('.container')
 );
