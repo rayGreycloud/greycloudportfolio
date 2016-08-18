@@ -3,7 +3,7 @@ var ReactDOM = require('react-dom');
 var {Route, Router, IndexRoute, hashHistory} = require('react-router');
 var Main = require('Main');
 var Splash = require('Splash');
-var About = require('About');
+import About from 'About';
 var Projects = require('Projects');
 var Contact = require('Contact');
 
