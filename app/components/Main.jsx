@@ -1,8 +1,8 @@
-var React = require('react');
-var Nav = require('Nav');
+import React from 'react';
+import Nav from 'Nav';
 import Footer from './footer';
 
-var Main = (props) => {
+const Main = (props) => {
   return (
     <div className='wrapper'>
       <Nav />
@@ -13,4 +13,4 @@ var Main = (props) => {
   );
 };
 
-module.exports = Main;
+export default Main;
