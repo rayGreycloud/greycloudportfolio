@@ -1,7 +1,7 @@
-var React = require('react');
-var {Link} = require('react-router');
+import React from 'react';
+import {Link} from 'react-router';
 
-var Splash = (props) => {
+const Splash = (props) => {
   return (
     <div className="section" id="landing">
       <div className="content">
@@ -25,5 +25,4 @@ var Splash = (props) => {
   )
 };
 
-
-module.exports = Splash;
+export default Splash;
