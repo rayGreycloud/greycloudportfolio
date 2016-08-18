@@ -1,7 +1,7 @@
 import React from 'react';
-var {Link} = require('react-router');
+import {Link} from 'react-router';
 
-var Contact = (props) => {
+const Contact = () => {
   return (
     <div>
       <h1 className='text-center page-title'>Contact Me</h1>
@@ -21,8 +21,7 @@ var Contact = (props) => {
         </div>
       </div>
     </div>
-
-  )
+  );
 };
 
 export default Contact;

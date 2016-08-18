@@ -5,7 +5,7 @@ var Main = require('Main');
 var Splash = require('Splash');
 import About from 'About';
 var Projects = require('Projects');
-var Contact = require('Contact');
+import Contact from 'Contact';
 
 // load foundation
 require('style!css!foundation-sites/dist/foundation.min.css');
