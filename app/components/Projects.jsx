@@ -1,7 +1,7 @@
-var React = require('react');
-var {Link} = require('react-router');
+import React from 'react';
+import {Link} from 'react-router';
 
-var Projects = (props) => {
+const Projects = (props) => {
   return (
     <div>
       <h1 className='text-center page-title'>Projects</h1>
@@ -64,4 +64,5 @@ var Projects = (props) => {
 
   )
 };
-module.exports = Projects;
+
+export default Projects;

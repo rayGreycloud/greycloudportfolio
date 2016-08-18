@@ -4,7 +4,7 @@ var {Route, Router, IndexRoute, hashHistory} = require('react-router');
 import Main from 'Main';
 var Splash = require('Splash');
 import About from 'About';
-var Projects = require('Projects');
+import Projects from 'Projects';
 import Contact from 'Contact';
 
 // load foundation
