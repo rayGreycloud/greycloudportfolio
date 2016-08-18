@@ -1,8 +1,8 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
-var {Route, Router, IndexRoute, hashHistory} = require('react-router');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {Route, Router, IndexRoute, hashHistory} from 'react-router';
 import Main from 'Main';
-var Splash = require('Splash');
+import Splash from 'Splash';
 import About from 'About';
 import Projects from 'Projects';
 import Contact from 'Contact';
