@@ -1,4 +1,4 @@
-var React = require('react');
+import React from 'react';
 var {Link} = require('react-router');
 
 var Contact = (props) => {
@@ -24,4 +24,5 @@ var Contact = (props) => {
 
   )
 };
-module.exports = Contact;
+
+export default Contact;
