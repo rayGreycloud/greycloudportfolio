@@ -8,6 +8,10 @@ $title-color: darkblue;
   margin-bottom: $space-large;
 }
 
+.section-title {
+  color: $title-color;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -22,6 +26,10 @@ $title-color: darkblue;
   width: 80%;
   height: 600px;
   margin: 0 auto;
+}
+
+.code_links li {
+  list-style-type: none;
 }
 
 .social_links li {
@@ -46,4 +54,8 @@ $title-color: darkblue;
 
 .opening {
   margin: 1.0rem auto;
+}
+
+#code-links {
+  margin: 1.5rem auto;
 }
