@@ -18,10 +18,8 @@ const Splash = (props) => {
             <a className="button hollow primary" href="#about">More about me</a>
           </p>
         </div>
-
       </div>
     </div>
-
   )
 };
 
