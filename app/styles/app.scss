@@ -32,11 +32,18 @@ $title-color: darkblue;
   list-style-type: none;
 }
 
-footer {
+#footer {
   display: block;
+  background-color: #e6e6e6;
+  margin: 0.5rem;
+  padding: 1.0rem;
+  text-align: center;
 }
 
-.1-footer p {
-    text-align: center;
-    margin-bottom: 2rem;
+.quote {
+  margin: 3.0rem auto;
+}
+
+.opening {
+  margin: 1.0rem auto;
 }
