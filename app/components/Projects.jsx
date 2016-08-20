@@ -6,10 +6,15 @@ import CodeLinks from './CodeLinks.jsx';
 export class Projects extends Component {
   render() {
     return (
-      <div>
+      <div className="container">
         <h2 className='text-center page-title'>Projects</h2>
-        <ProjectList />
-        <CodeLinks />
+        <div>
+          <ProjectList />
+        </div>
+      
+        <div>
+          <CodeLinks />
+        </div>
       </div>
     );
   }

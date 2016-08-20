@@ -1,35 +1,29 @@
 import React from 'react';
+import { Links } from 'react-router';
+import projectsData from './projects-data';
 
 const ProjectList = () => {
+  const projectItems = projectsData.map((project) => {
+      return (
+        <div className="col-md-6 list-group-item">
+          <a href={project.codeURL}>
+            <div className="thumbnail">
+              <img src={project.imageURL}></img>
+              <div className="caption">
+                <h4>{project.name}</h4>
+                <p>{project.re}</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      );
+  });
+
   return (
-    <div className="project-list">
-
-      <div className="col-lg-4 col-sm-6">
-        <div className="thumbnail">
-          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/470387/rgb-color-game.png" alt="RGB Color Game"></img>
-        </div>
-      </div>
-
-      <div className="col-lg-4 col-sm-6">
-        <div className="thumbnail">
-          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/470387/weather-app.png" alt="Weather App"></img>
-        </div>
-      </div>
-
-      <div className="col-lg-4 col-sm-6">
-        <div className="thumbnail">
-          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/470387/quote-app.png" alt="Quote Machine"></img>
-        </div>
-      </div>
-
-      <div className="col-lg-4 col-sm-6">
-        <div className="thumbnail">
-          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/470387/ginormous.png" alt="Ginormous"></img>
-        </div>
-      </div>
-
+    <div className="project-list list-group">
+      {projectItems}
     </div>
-  )
+  );
 };
 
 export default ProjectList;
