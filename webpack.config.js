@@ -3,7 +3,8 @@ var webpack = require('webpack');
 module.exports = {
   entry: [
     'script!jquery/dist/jquery.min.js',
-    'script!foundation-sites/dist/foundation.min.js',
+    'script!bootstrap/dist/js/bootstrap.min.js',
+    'bootstrap-loader',
     './app/app.jsx'
   ],
   externals: {
@@ -30,7 +31,7 @@ module.exports = {
       Contact: 'app/components/Contact.jsx',
       applicationStyles: 'app/styles/app.scss'
     },
-    extensions: ['', '.js', '.jsx']
+    extensions: ['', '.css', '.js', '.jsx']
   },
   module: {
     loaders: [{
@@ -40,7 +41,12 @@ module.exports = {
       },
       test: /\.jsx?$/,
       exclude: /(node_modules | bower_components)/
-    }]
+    },
+    { test: /\.eot(\?v=\d+\.\d+\.\d+)?$/, loader: "file" },
+    { test: /\.(woff|woff2)$/, loader:"url?prefix=font/&limit=5000" },
+    { test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/, loader: "url?limit=10000&mimetype=application/octet-stream" },
+    { test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, loader: "url?limit=10000&mimetype=image/svg+xml" }
+  ]
   },
   devtool: 'cheap-module-eval-source-map'
 };

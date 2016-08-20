@@ -11,8 +11,8 @@ export class Projects extends Component {
         <div>
           <ProjectList />
         </div>
-      
-        <div>
+
+        <div className="container">
           <CodeLinks />
         </div>
       </div>

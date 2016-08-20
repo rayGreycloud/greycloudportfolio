@@ -7,9 +7,9 @@ import About from 'About';
 import Projects from 'Projects';
 import Contact from 'Contact';
 
-// load foundation
-require('style!css!foundation-sites/dist/foundation.min.css');
-$(document).foundation();
+// load bootstrap
+require('style!css!bootstrap/dist/css/bootstrap.min.css');
+
 
 // app css
 require('style!css!sass!applicationStyles');

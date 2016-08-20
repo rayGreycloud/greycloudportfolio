@@ -2,10 +2,10 @@ import React from 'react';
 import { Links } from 'react-router';
 import projectsData from './projects-data';
 
-const ProjectList = () => {
+const ProjectList = (props) => {
   const projectItems = projectsData.map((project) => {
       return (
-        <div className="col-md-6 list-group-item">
+        <div key={project.name} className="col-md-6 list-group-item">
           <a href={project.codeURL}>
             <div className="thumbnail">
               <img src={project.imageURL}></img>
