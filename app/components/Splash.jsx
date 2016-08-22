@@ -19,7 +19,7 @@ const Splash = (props) => {
               Click the links to learn more about myself, my projects or how to contact me.
             </p>
           <p>
-            <a className="button hollow primary" href="#about">More about me</a>
+            <a className="btn btn-default" href="#about">More about me</a>
           </p>
         </div>
       </div>

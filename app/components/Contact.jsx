@@ -17,7 +17,7 @@ const Contact = () => {
 
           <li className="email">
             <a title="Email Me"
-              className="button hollow primary" href="mailto:rayGreycloud@gmail.com" target="_blank">
+              className="btn btn-default" href="mailto:rayGreycloud@gmail.com" target="_blank">
               <i className="fa fa-envelope-o"></i>
               <span> Email Me</span>
             </a>
@@ -25,7 +25,7 @@ const Contact = () => {
 
           <li>
             <a title="Tweet Me"
-              className="button hollow primary"
+              className="btn btn-default"
               href="https://twitter.com/rayGreycloud" target="_blank">
               <i className="fa fa-twitter-square"></i>
               <span> Tweet Me</span>
