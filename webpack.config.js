@@ -31,7 +31,7 @@ module.exports = {
       Contact: 'app/components/Contact.jsx',
       applicationStyles: 'app/styles/app.scss'
     },
-    extensions: ['', '.css', '.js', '.jsx']
+    extensions: ['', '.js', '.jsx']
   },
   module: {
     loaders: [
