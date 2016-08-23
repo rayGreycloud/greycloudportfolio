@@ -1,8 +1,16 @@
-.code_links li {
+.code-links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.code-links li {
+  margin: 20px auto;
   list-style-type: none;
 }
 
-#code-links {
+.project-list {
   display: flex;
-  margin: 1.5rem auto;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
