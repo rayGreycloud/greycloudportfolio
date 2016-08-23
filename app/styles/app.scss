@@ -1,58 +1,15 @@
+@import "base/variables";
+@import "base/page";
 
-$space-large: 2.5rem;
-$title-color: darkblue;
+// foundation
+@import "base/foundation-settings";
+@import "foundation";
+@include foundation-everything;
 
-.page-title {
-  color: $title-color;
-  margin-top: $space-large;
-  margin-bottom: $space-large;
-}
-
-.section-title {
-  color: $title-color;
-}
-
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  height: 600px;
-  margin: 0 auto;
-}
-
-.code_links li {
-  list-style-type: none;
-}
-
-.social_links li {
-  list-style-type: none;
-}
-
-.tools li {
-  list-style-type: none;
-}
-
-#footer {
-  display: block;
-  background-color: #e6e6e6;
-  margin: 0.5rem;
-  padding: 1.0rem;
-  text-align: center;
-}
-
-.quote {
-  margin: 3.0rem auto;
-}
-
-.opening {
-  margin: 1.0rem auto;
-}
-
-#code-links {
-  display: flex;
-  margin: 1.5rem auto;
-}
-
-.btn {
-  color: $title-color;
-}
+// Components
+@import "components/navigation";
+@import "components/main";
+@import "components/splash";
+@import "components/about";
+@import "components/projects";
+@import "components/contact";
