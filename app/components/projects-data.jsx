@@ -11,7 +11,7 @@ const projectData = [
   },
   {
     name: 'WeatherApp',
-    re: 'Current temperature',
+    re: 'Weather App using React',
     type: 'React',
     imageURL: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/470387/weather-app.png',
     appURL: '',
@@ -19,15 +19,15 @@ const projectData = [
   },
   {
     name: 'MarkBin',
-    re: 'Markdown Editor',
+    re: 'Markdown Editor using Meteor/React',
     type: 'Meteor/React',
     imageURL: '',
     appURL: '',
     codeURL: 'https://github.com/rayGreycloud/mark-bin'
   },
   {
-    name: 'ProjectName', 
-    re: 'YouTube Search App',
+    name: 'ProjectName',
+    re: 'YouTube Search App using React/Redux',
     type: 'React/Redux',
     imageURL: '',
     appURL: '',

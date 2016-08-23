@@ -11,8 +11,8 @@ const ProjectList = (props) => {
             <div className="caption">
               <h4>{project.name}</h4>
               <p>{project.re}</p>
-              <a href={project.appURL}>Live App</a>
-              <a href={project.codeURL}>GitHub Repo</a>
+              <p><a href={project.appURL}>Live App</a></p>
+              <p><a href={project.codeURL}>GitHub Repo</a></p>
             </div>
           </div>
         </div>
