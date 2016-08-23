@@ -7,9 +7,8 @@ import About from 'About';
 import Projects from 'Projects';
 import Contact from 'Contact';
 
-// load bootstrap
-require('style!css!bootstrap/dist/css/bootstrap.min.css');
-
+// load foundation
+$(document).foundation();
 
 // app css
 require('style!css!sass!applicationStyles');
