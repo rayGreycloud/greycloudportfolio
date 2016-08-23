@@ -1,9 +1,10 @@
 var webpack = require('webpack');
+var path = require('path');
 
 module.exports = {
   entry: [
     'script!jquery/dist/jquery.min.js',
-    'script!bootstrap/dist/js/bootstrap.min.js',
+    'script!foundation-sites/dist/foundation.min.js',
     'bootstrap-loader',
     './app/app.jsx'
   ],
@@ -34,19 +35,21 @@ module.exports = {
     extensions: ['', '.css', '.js', '.jsx']
   },
   module: {
-    loaders: [{
-      loader: 'babel-loader',
-      query: {
-        presets: ['react', 'es2015', 'stage-0']
-      },
-      test: /\.jsx?$/,
-      exclude: /(node_modules | bower_components)/
-    },
-    { test: /\.eot(\?v=\d+\.\d+\.\d+)?$/, loader: "file" },
-    { test: /\.(woff|woff2)$/, loader:"url?prefix=font/&limit=5000" },
-    { test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/, loader: "url?limit=10000&mimetype=application/octet-stream" },
-    { test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, loader: "url?limit=10000&mimetype=image/svg+xml" }
-  ]
+    loaders: [
+      {
+        loader: 'babel-loader',
+        query: {
+          presets: ['react', 'es2015', 'stage-0']
+        },
+        test: /\.jsx?$/,
+        exclude: /(node_modules | bower_components)/
+      }
+    ]
+  },
+  sassLoader: {
+    includePaths: [
+      path.resolve(__dirname, './node_modules/foundation-sites/scss')
+    ]
   },
   devtool: 'cheap-module-eval-source-map'
 };
