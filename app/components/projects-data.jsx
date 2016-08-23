@@ -4,34 +4,34 @@ const projectData = [
   {
     name: 'ColorGame',
     re: 'RGB color matching game',
-    type: '',
+    type: 'HTML/css/javascript',
     imageURL: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/470387/rgb-color-game.png",
-    appURL: '',
-    codeURL: ''
+    appURL: 'http://codepen.io/rayGreycloud/full/JXKydN/',
+    codeURL: 'https://github.com/rayGreycloud/rgbColorGame'
   },
   {
     name: 'WeatherApp',
     re: 'Current temperature',
-    type: '',
+    type: 'React',
     imageURL: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/470387/weather-app.png',
     appURL: '',
-    codeURL: ''
+    codeURL: 'https://github.com/rayGreycloud/weather-react'
   },
   {
-    name: 'QuoteMachine',
-    re: 'Generates randomly selected quotation',
-    type: '',
-    imageURL: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/470387/quote-app.png',
-    appURL: '',
-    codeURL: ''
-  },
-  {
-    name: 'ProjectName', // doubles as url
-    re: 'Is/Does This',
-    type: 'React/Meteor',
+    name: 'MarkBin',
+    re: 'Markdown Editor',
+    type: 'Meteor/React',
     imageURL: '',
-    appURL: '', // if live
-    codeURL: '' // github or codepen
+    appURL: '',
+    codeURL: 'https://github.com/rayGreycloud/mark-bin'
+  },
+  {
+    name: 'ProjectName', 
+    re: 'YouTube Search App',
+    type: 'React/Redux',
+    imageURL: '',
+    appURL: '',
+    codeURL: 'https://github.com/rayGreycloud/youtube-search-app'
   },
 ];
 
