@@ -10,7 +10,7 @@ const Main = (props) => {
         {props.children}
       </div>
       <div id="footerComponent">
-        <Footer className="align-self-bottom" />
+        <Footer />
       </div>
 
     </div>
