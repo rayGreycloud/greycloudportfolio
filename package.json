@@ -2,11 +2,14 @@
   "name": "raygreycloudportfolio",
   "version": "1.0.0",
   "description": "portfolio site built with react",
+  "engines": {
+    "node": "5.5.0"
+  },
   "main": "index.js",
   "scripts": {
     "postinstall": "webpack -p",
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"  
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "RayGreycloud",
   "license": "ISC",
@@ -14,9 +17,8 @@
     "express": "^4.13.4",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
-    "react-router": "^2.0.0"
-  },
-  "devDependencies": {
+    "react-router": "^2.0.0",
+
     "babel-core": "^6.5.1",
     "babel-loader": "^6.2.2",
     "babel-preset-es2015": "^6.5.0",
@@ -30,5 +32,6 @@
     "script-loader": "^0.6.1",
     "style-loader": "^0.13.0",
     "webpack": "^1.12.13"
-  }
+  },
+  "devDependencies": {}
 }
