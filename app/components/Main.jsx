@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from 'Nav';
-import Footer from 'Footer';
+let Footer = require('./Footer.jsx');
 
 const Main = (props) => {
   return (
