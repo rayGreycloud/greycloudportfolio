@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from 'Nav';
-import Footer from './Footer';
+import Footer from './Footer.jsx';
 
 const Main = (props) => {
   return (
@@ -10,7 +10,7 @@ const Main = (props) => {
         {props.children}
       </div>
       <div id="footerComponent">
-        <Footer className="align-self-bottom"/>
+        <Footer className="align-self-bottom" />
       </div>
 
     </div>
