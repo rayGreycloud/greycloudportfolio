@@ -14,17 +14,7 @@ const About = () => {
       </div>
 
       <div>
-        <h4>Tools = &#123;</h4>
-          <ul className="tools">
-
-            <li>Basics: &#123; HTML5, CSS3, Javascript, ES2015 &#125;</li>
-            <li>Front-end: &#123; jQuery, Bootstrap, Foundation &#125;</li>
-            <li>Back-end: &#123; npm, NodeJs, Express &#125;</li>
-            <li>Full-stack: &#123; React, Redux and Meteor &#125;</li>
-            <li>DataBase: &#123; MongoDB, FireBase and SQLite &#125;</li>
-            <li>Dev Tools: &#123; Webpack, Babel, Karma, Mocha &#125;</li>
-          </ul>
-        <h4>&#125;</h4>
+        <a href="https://gyazo.com/026ca4003885b80e3b7e98748d4995d2"><img src="https://i.gyazo.com/026ca4003885b80e3b7e98748d4995d2.gif" alt="https://gyazo.com/026ca4003885b80e3b7e98748d4995d2" width="760"/></a>
       </div>
     </div>
   )

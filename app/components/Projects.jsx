@@ -11,7 +11,7 @@ export class Projects extends Component {
         <div>
           <ProjectList />
         </div>
-
+        <hr></hr>
         <div className="container">
           <CodeLinks />
         </div>

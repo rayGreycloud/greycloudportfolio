@@ -26,7 +26,7 @@ const projectData = [
     codeURL: 'https://github.com/rayGreycloud/mark-bin'
   },
   {
-    name: 'ProjectName',
+    name: 'YouTubeApp',
     re: 'YouTube Search App using React/Redux',
     type: 'React/Redux',
     imageURL: 'http://lorempixel.com/400/200',
