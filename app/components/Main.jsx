@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from 'Nav';
-import Footer from './Footer.jsx';
+import Footer from 'Footer';
 
 const Main = (props) => {
   return (

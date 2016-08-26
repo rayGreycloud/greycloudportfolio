@@ -29,6 +29,7 @@ module.exports = {
       About: 'app/components/About.jsx',
       Projects: 'app/components/Projects.jsx',
       Contact: 'app/components/Contact.jsx',
+      Footer: 'app/components/Footer.jsx',
       applicationStyles: 'app/styles/app.scss'
     },
     extensions: ['', '.js', '.jsx']
