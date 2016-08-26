@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Footer = () => {
+const PageFooter = () => {
   return (
-    <div id="footer">
-      <footer className="1-footer">
+    <div id="page-footer">
+      <footer>
         <p>
           <span>Designed and developed by Ray Greycloud &copy;2016</span>
         </p>
@@ -12,4 +12,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default PageFooter;

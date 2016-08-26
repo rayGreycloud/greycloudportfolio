@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from 'Nav';
-let Footer = require('./Footer.jsx');
+import PageFooter from 'PageFooter';
 
 const Main = (props) => {
   return (
@@ -10,7 +10,7 @@ const Main = (props) => {
         {props.children}
       </div>
       <div id="footerComponent">
-        <Footer />
+        <PageFooter />
       </div>
 
     </div>
