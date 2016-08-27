@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Route, Router, IndexRoute, hashHistory} from 'react-router';
+import {Route, Router, IndexRoute, browserHistory} from 'react-router';
 import Main from 'Main';
 import Splash from 'Splash';
 import About from 'About';
@@ -14,8 +14,8 @@ $(document).foundation();
 require('style!css!sass!applicationStyles');
 
 ReactDOM.render(
-  // Add path to server if using BrowserHistory
-  <Router history={hashHistory}>
+  // Add path to server if using browserHistory
+  <Router history={browserHistory}>
     <Route path="/" component={Main}>
       <Route path="about" component={About}></Route>
       <Route path="projects" component={Projects}></Route>
