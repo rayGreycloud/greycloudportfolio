@@ -6,7 +6,7 @@ import CodeLinks from './CodeLinks.jsx';
 export class Projects extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="container section">
         <h2 className="text-center page-title">Projects</h2>
         <div>
           <ProjectList />

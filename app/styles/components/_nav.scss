@@ -5,7 +5,7 @@
 
 .top-bar {
   .menu-text {
-    color: $nav-text-color;
+    color: $nav-text-color !important;
   }
 
   .menu > .menu-text > a {
@@ -17,7 +17,9 @@
   }
 }
 
-
+.menu {
+  color: black;
+}
 #myname {
   list-style-type: none;
 }

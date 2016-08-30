@@ -10,7 +10,7 @@ const Nav = () => {
 
       <div className="top-bar" id="responsive-menu">
         <div className="top-bar-left">
-          <ul className="menu ">
+          <ul className="menu">
             <li className="menu-text">rayGreycloud.xyz</li>
             <li className="menu-text">
               <IndexLink to='/' activeClassName='active' activeStyle={{fontWeight: 'bold'}}>Home</IndexLink>
