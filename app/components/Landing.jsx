@@ -17,10 +17,12 @@ const Landing = (props) => {
         </div>
       </div>
 
-      <div>
-        <div className="opening">
+      <div className="opening">
+        <div className="heading">
           <h4>rayGreycloud</h4>
           <h5><em>Full-Stack Javascript Developer</em></h5>
+        </div>
+        <div>
           <p>
             I'm Ray, a web developer in Portland. I believe diligence and attention to detail are essential for good web app development. Especially going forward as the technologies and toolchains become more complicated and interconnected.
           </p>
@@ -32,6 +34,7 @@ const Landing = (props) => {
           </p>
         </div>
       </div>
+
     </div>
   )
 };
