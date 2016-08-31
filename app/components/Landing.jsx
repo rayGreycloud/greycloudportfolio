@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router';
 
-const Splash = (props) => {
+const Landing = (props) => {
   return (
     <div className="section" id="landing">
       <div className="content">
@@ -28,4 +28,4 @@ const Splash = (props) => {
   )
 };
 
-export default Splash;
+export default Landing;

@@ -5,9 +5,6 @@ const Nav = () => {
 
   return (
     <div className="navbar">
-
-
-
       <div className="top-bar" id="responsive-menu">
         <div className="top-bar-left">
           <ul className="menu">
@@ -27,7 +24,6 @@ const Nav = () => {
           </ul>
         </div>
       </div>
-
     </div>
   );
 }
