@@ -14,7 +14,7 @@ const About = () => {
       </div>
 
       <div>
-        <a href="https://gyazo.com/026ca4003885b80e3b7e98748d4995d2"><img src="https://i.gyazo.com/026ca4003885b80e3b7e98748d4995d2.gif" alt="https://gyazo.com/026ca4003885b80e3b7e98748d4995d2" width="760"/></a>
+        <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/470387/TOOLS__TECH_coggle.png"></a>
       </div>
     </div>
   )
