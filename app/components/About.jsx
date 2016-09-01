@@ -14,7 +14,7 @@ const About = () => {
       </div>
 
       <div>
-        <a href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/470387/TOOLS__TECH_coggle.png"></a>
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/470387/TOOLS__TECH_coggle.png"></img>
       </div>
     </div>
   )
