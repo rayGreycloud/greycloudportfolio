@@ -10,9 +10,9 @@ const ProjectList = (props) => {
             <img src={project.imageURL}></img>
             <div className="caption">
               <h4 className="media-title">{project.name}</h4>
-              <p><em>{project.re}</em></p>
-              <p><a href={project.appURL} target="_blank">See the Live App</a></p>
-              <p><a href={project.codeURL} target="_blank">See the Code on GitHub</a></p>
+              <p className="project-details"><em>{project.re}</em></p>
+              <p className="project-details"><a href={project.appURL} target="_blank">See the Live App</a></p>
+              <p className="project-details"><a href={project.codeURL} target="_blank">See the Code on GitHub</a></p>
             </div>
           </div>
         </div>
