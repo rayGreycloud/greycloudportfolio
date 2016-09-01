@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router';
+import { Link } from 'react-router';
 
 const Landing = (props) => {
   return (
@@ -31,7 +31,7 @@ const Landing = (props) => {
             Click the links to learn more about myself, my projects or how to contact me.
           </p>
           <p>
-            <a className="button hollow primary" href="#about">More about me</a>
+            <Link className="button hollow primary" to="/about">More about me</Link>
           </p>
         </div>
       </div>

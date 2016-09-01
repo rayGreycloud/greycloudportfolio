@@ -10,7 +10,9 @@ const CodeLinks = () => {
       </div>
       <ul className="code-links list-group">
         <li className="list-group-item">
-          <a title="@raygreycloud's GitHub Profile" href="https://github.com/rayGreycloud" target="_blank" className="button hollow primary">
+          <a title="@raygreycloud's GitHub Profile" href="https://github.com/rayGreycloud"
+            target="_blank"
+            className="button hollow primary">
             <i className="fa fa-github-square"></i>
             <span>My GitHub Profile</span>
           </a>
