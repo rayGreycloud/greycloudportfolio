@@ -8,17 +8,20 @@ const Nav = () => {
       <div className="top-bar" id="responsive-menu">
         <div className="top-bar-left">
           <ul className="menu">
-            <li className="menu-text">rayGreycloud.xyz</li>
             <li className="menu-text">
-              <IndexLink to='/' activeClassName='active' activeStyle={{fontWeight: 'bold'}}>Home</IndexLink>
+              <IndexLink to='/' activeClassName='active' activeStyle={{fontWeight: 'bold'}}>rayGreycloud.xyz</IndexLink>
             </li>
-            <li>
+          </ul>
+        </div>
+        <div className='top-bar-right'>
+          <ul className="menu">
+            <li className="menu-text">
               <Link to='/about' activeClassName='active' activeStyle={{fontWeight: 'bold'}}>About</Link>
             </li>
-            <li>
+            <li className="menu-text">
               <Link to='/projects' activeClassName='active' activeStyle={{fontWeight: 'bold'}}>Projects</Link>
             </li>
-            <li>
+            <li className="menu-text">
               <Link to='/contact' activeClassName='active' activeStyle={{fontWeight: 'bold'}}>Contact</Link>
             </li>
           </ul>
