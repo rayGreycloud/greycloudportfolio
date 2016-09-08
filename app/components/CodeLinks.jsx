@@ -1,6 +1,7 @@
 import React from 'react';
 
 const CodeLinks = () => {
+
   return (
     <div>
       <div>
@@ -12,20 +13,15 @@ const CodeLinks = () => {
         <li className="list-group-item">
           <a title="@raygreycloud's GitHub Profile" href="https://github.com/rayGreycloud"
             target="_blank"
-            className="button hollow primary">
+            className="button primary ">
             <i className="fa fa-github-square"></i>
-            <span>My GitHub Profile</span>
+
+            <span> My GitHub Profile</span>
           </a>
         </li>
 
         <li className="list-group-item">
-          <a title="raygreycloud's code portfolio" href="http://www.freecodecamp.com/raygreycloud" target="_blank" className="button hollow primary">
-            <span>My freeCodeCamp(<i className="fa fa-fire"></i>) portfolio</span>
-          </a>
-        </li>
-
-        <li className="list-group-item">
-          <a title="Ray Greycloud's CodePen" href="http://codepen.io/rayGreycloud" target="_blank" className="button hollow primary">
+          <a title="Ray Greycloud's CodePen" href="http://codepen.io/rayGreycloud" target="_blank" className="button primary">
               <i className="fa fa-codepen"></i>
               <span> My CodePen Portfolio</span>
           </a>

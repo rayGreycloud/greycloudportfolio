@@ -6,10 +6,10 @@ const Contact = () => {
     <div id="contact" className="section">
 
       <div>
-        <h2 className='text-center page-title'>
+        <h2 className="text-center page-title">
           Contact Me
         </h2>
-        <p>Let's talk about what I can do for you. Send me a message, and we'll set up a time to chat.</p>
+        <p className="text-center">Let's talk about what I can do for you. Send me a message, and we'll set up a time to chat.</p>
       </div>
 
       <div className="content">
@@ -17,7 +17,7 @@ const Contact = () => {
 
           <li className="email">
             <a title="Email Me"
-              className="button hollow primary" href="mailto:rayGreycloud@gmail.com" target="_blank">
+              className="button primary" href="mailto:rayGreycloud@gmail.com" target="_blank">
               <i className="fa fa-envelope-o"></i>
               <span> Email Me</span>
             </a>
@@ -25,7 +25,7 @@ const Contact = () => {
 
           <li>
             <a title="Tweet Me"
-              className="button hollow primary"
+              className="button primary"
               href="https://twitter.com/rayGreycloud" target="_blank">
               <i className="fa fa-twitter-square"></i>
               <span> Tweet Me</span>

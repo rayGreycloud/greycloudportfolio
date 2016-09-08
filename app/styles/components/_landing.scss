@@ -18,3 +18,18 @@
   background-size: cover;
   background-position: center;
 }
+
+.site-links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.site-links li {
+  margin: 1.4rem 0.8rem;
+  list-style-type: none;
+}
+
+.site-links a {
+  min-width: 7.8rem;
+}

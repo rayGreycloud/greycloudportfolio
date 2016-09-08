@@ -28,11 +28,20 @@ const Landing = (props) => {
             I'm Ray, a web developer in Portland. I believe diligence and attention to detail are essential for good web app development. Especially going forward as the technologies and toolchains become more complicated and interconnected.
           </p>
           <p>
-            Click the links to learn more about myself, my projects or how to contact me.
+            Click below to learn more about myself, my projects or how to contact me.
           </p>
-          <p>
-            <Link className="button hollow primary" to="/about">More about me</Link>
-          </p>
+          <ul className="site-links list-group">
+            <li className="list-group-item">
+              <Link className="button primary" to="/about">ABOUT</Link>
+            </li>
+            <li className="list-group-item">
+              <Link className="button primary" to="/projects">PROJECTS</Link>
+            </li>
+            <li className="list-group-item">
+              <Link className="button primary" to="/contact">CONTACT</Link>
+            </li>
+
+          </ul>
         </div>
       </div>
 

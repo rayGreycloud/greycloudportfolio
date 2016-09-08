@@ -1,4 +1,5 @@
 .wrapper {
+  font-family: Roboto,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
   display: flex;
   flex-direction: column;
   width: 80%;
@@ -8,4 +9,8 @@
 
 .footerComponent {
   display: flex;
+}
+
+button {
+  background-color: white;
 }
