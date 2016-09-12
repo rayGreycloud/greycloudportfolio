@@ -5,7 +5,7 @@ const projectData = [
     name: 'ColorGame',
     re: 'RGB color matching game',
     type: 'HTML/css/javascript',
-    image1URL: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/470387/color-game300x300.png",
+    imageURL: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/470387/colorGame300x300.png',
     image2URL: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/470387/color_game800x600.jpg',
     appURL: 'http://codepen.io/rayGreycloud/full/JXKydN/',
     codeURL: 'https://github.com/rayGreycloud/rgbColorGame',
