@@ -1,6 +1,6 @@
 import React from 'react';
 import { Links } from 'react-router';
-import projectsData from './projects-data';
+import projectsData from '../projects-data';
 
 const ProjectList = (props) => {
   const projectItems = projectsData.map((project) => {
