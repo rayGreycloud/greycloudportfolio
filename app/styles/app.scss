@@ -1,15 +1,20 @@
 @import "base/variables";
-@import "base/page";
 
 // foundation
 @import "base/foundation-settings";
 @import "foundation";
 @include foundation-everything;
 
+// Common
+@import "base/common";
+
 // Components
 @import "components/nav";
+@import "components/pagefooter";
 @import "components/main";
 @import "components/landing";
 @import "components/about";
 @import "components/projects";
+@import "components/projectlist";
+@import "components/codelinks";
 @import "components/contact";

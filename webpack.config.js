@@ -29,7 +29,7 @@ module.exports = {
       About: 'app/components/About.jsx',
       Projects: 'app/components/Projects.jsx',
       Contact: 'app/components/Contact.jsx',
-      PageFooter: 'app/components/page-footer.jsx',
+      PageFooter: 'app/components/PageFooter.jsx',
       applicationStyles: 'app/styles/app.scss'
     },
     extensions: ['', '.js', '.jsx']

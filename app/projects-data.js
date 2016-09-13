@@ -45,11 +45,11 @@ const projectData = [
   //   name: 'YouTubeApp',
   //   re: 'YouTube Search App using React/Redux',
   //   type: 'React/Redux',
-  //   imageURL: 'http://lorempixel.com/400/200',
+  //   imageURL: '',
   //   image2URL: '',
   //   appURL: '',
   //   codeURL: 'https://github.com/rayGreycloud/youtube-search-app',
-  //   order: 4
+  //   order: 5
   // },
 ];
 
